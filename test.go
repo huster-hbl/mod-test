@@ -8,5 +8,5 @@ type HBLTest struct {
 }
 
 func (h *HBLTest) GetName() {
-	fmt.Println("[GetName]V1...")
+	fmt.Println("[GetName]V2...")
 }
