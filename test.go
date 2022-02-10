@@ -7,6 +7,6 @@ type HBLTest struct {
 	Age  int64
 }
 
-func (h *HBLTest) GetName() {
-	fmt.Println("[GetName]V1.1.0...")
+func (h *HBLTest) GName() {
+	fmt.Println("version: v2.0.0, name: %s", h.Name)
 }
